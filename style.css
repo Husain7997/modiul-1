@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+    background-color: lemonchiffon;
+    font-family: sans-serif;
+}
+
+.h1{
+    background: darkblue;
+    text-align: center;
+}
+.h1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.h1 ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.h1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.h2, .h1 ul li:hover{
+background: #2bab0d;
+border-radius: 3px;
+}
+.h1 .fa{
+margin-right: 8px;
+}
+.h3{
+    display: none;
+}
+
+.h1 ul li:hover .h3{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.h1 ul li:hover .h3 ul{
+    display: block;
+    margin: 10px;
+}
+.h1 ul li:hover .h3 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.h1 ul li:hover .h3 ul li:last-child{
+    border-bottom: none;
+}
+.h1 ul li:hover .h3 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+
+.h5{
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.h5 p{
+    text-align: left;
+}
+
